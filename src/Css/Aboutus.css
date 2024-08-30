@@ -1,0 +1,58 @@
+.about {
+    display: flex;
+    justify-content: left;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+  }
+  
+.about h1 {
+    color: white;
+  }
+
+
+.footer-newsletter {
+    font-size: 15px;
+  }
+  
+.footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+.footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #e0e5e2;
+  }
+  
+.footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+
+  .abt-dropdown-item {
+    padding: 10px;
+    color: rgb(77,0,0);
+    background-color: white;
+    text-decoration: none;
+    border-bottom: 0.5px solid white;
+    display: block;
+  }
+  .abt-dropdown-item:hover {
+    padding: 10px;
+    color: white;
+    background-color: rgb(77,0,0);
+    text-decoration: none;
+    border-bottom: 0.5px solid white;
+    display: block;
+  }

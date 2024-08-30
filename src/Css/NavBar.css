@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: rgb(77,0,0);
+    padding: 1rem;
+  }
+  
+ul {
+    list-style: none;
+    display: flex;
+  }
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+ul li {
+    margin-right: 3rem;
+    cursor: pointer;
+  }
+
+
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(77,0,0);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+ul li:hover::after{
+    width: 100%;
+}

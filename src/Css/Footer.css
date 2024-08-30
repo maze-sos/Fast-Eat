@@ -1,0 +1,108 @@
+.footer-head {
+    padding: 1rem;
+    background-color:white;
+    color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(77,0,0);
+  }
+.footer img{
+    justify-content: left;
+  }
+
+#footer {
+    color: rgb(77,0,0);
+    font-size: 14px;
+    background: url("https://wallpapers.com/images/hd/blank-white-background-xbsfzsltjksfompa.jpg");
+    background-position: center;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #f9faf9;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h2 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    color: rgb(77,0,0);
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(77,0,0);
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  
+  #footer .footer-newsletter {
+    font-size: 15px;
+  }
+  
+  #footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(77,0,0);
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #e0e5e2;
+  }
+  
+  #footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+  .ft-dropdown-item {
+    padding: 10px;
+    color: rgb(77,0,0);
+    background-color: black;
+    text-decoration: none;
+    border-bottom: 0.5px solid white;
+    display: block;
+  }
+  .ft-dropdown-item:hover {
+    padding: 10px;
+    color: black;
+    background-color: rgb(77,0,0);
+    text-decoration: none;
+    border-bottom: 0.5px solid white;
+    display: block;
+  }
+
+  #footer .copy-container {
+    text-align: center;
+  }
